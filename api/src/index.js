@@ -4,7 +4,6 @@ const cors = require('cors')
 
 const router = require('./router/routes');
 const app = express();
-const PORT = 4000;
 app.use(cors());
 
 app.use('/',router);
@@ -15,6 +14,6 @@ app.use((err, req, res, next) => {
     res.status(status).send(message);
   });
 
-app.listen(PORT, () => console.log(
+app.listen(process.env.PORT, () => console.log(
     'Server listen on port 4000'
 ))
