@@ -1,5 +1,9 @@
 # test-fullstack
 
+LINK TO BACKEND DEPLOY:  https://test-fullstack.onrender.com/
+
+Example: https://test-fullstack.onrender.com/api/users
+
 Routes created
 
 
